@@ -1,0 +1,183 @@
+body {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    background-color: #d5f4e6;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 58px;
+    color: white;
+}
+
+/* header background */
+#headerBackground {
+    background-color: #80ced6;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: black;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/* button for viewing masterpiece */
+#myBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* border for pixels */
+.blackBorder {
+    border: 1px solid black;
+}
+
+/* clear border for pixels */
+.clearBorder {
+    border: 0px solid white; /* backup color*/
+    border: 0px solid rgba(255,255,255,0);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255,255,255);
+}
+
+input[type=number] {
+    width: 4em;
+}
+
+/* css for modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+canvas {
+  width: 20px;
+}
+
+/* Modal Content */
+#modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    height: 90%;
+    overflow: auto;
+}
+
+#modal-content img {
+    width: 100%;
+    height: 300px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* custom button for success */
+.btn-success {
+    color: #fff;
+    background-color: green;
+}
+
+/* custom button for danger */
+.btn-danger {
+    color: #fff;
+    background-color: #d52f2f;
+}
+
+/* download button */
+#downloadButton {
+    margin-bottom: 25px;
+}
+
+/* extra margin */
+.extraMargin {
+    margin-bottom: 15px;
+}
+
+/* add padding to all glyph icons */
+.glyphicon {
+    padding-left: 4px;
+}
+
+/* color for name */
+#name {
+    color: black;
+    text-align: center;
+}
+
+/* output name */
+#outputname {
+    padding-bottom: 4px;
+}
+
+#pixelCanvas {
+    cursor: crosshair;
+}
+
+/* to prevent images from jumping when opening popup modal*/
+.modal-open {
+    padding-right: 0 !important;
+}
+
+/* styling for recent colors */
+.recentColors {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* styling for eraser */
+#eraser {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
